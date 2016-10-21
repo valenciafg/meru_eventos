@@ -1,0 +1,23 @@
+{
+  "name": "meru_eventos",
+  "authors": [
+    "Víctor Valencia <valencia6x@gmail.com>"
+  ],
+  "description": "calendario de eventos con google calendar",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "moment": "^2.15.1",
+    "fullcalendar": "^3.0.1",
+    "bootstrap": "v4.0.0-alpha.4"
+  }
+}

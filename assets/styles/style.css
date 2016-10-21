@@ -1,0 +1,50 @@
+body {
+    /* Show it's not fixed to the top */
+    min-height: 75rem;
+    padding-top: 6rem;
+}
+.single-event{
+    background-color: #668CD9;
+    border-color: #FFFFFF;
+    color: #fff;
+}
+.ve-holidays{
+    background-color: #AD2D2D;
+    border-color: #FFFFFF;
+    color: #fff;
+}
+.christian-holidays{
+    background-color: #C4A883;
+    border-color: #FFFFFF;
+    color: #fff;
+}
+.event-birthday{
+    background-color: #603F99;
+    border-color: #FFFFFF;
+    color: #fff;
+}
+.event-executive{
+    background-color: #E0C240;
+    border-color: #FFFFFF;
+    color: #fff;
+}
+.event-wedding{
+    background-color: #7EC225;
+    border-color: #FFFFFF;
+    color: #fff;
+}
+.text-center {
+    text-align:center;
+}
+
+.fc-left,.fc-day-header{
+    text-transform: capitalize;
+}
+.fc-day-header.fc-sun{
+    color:#ff4136;
+}
+/*
+color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+*/
