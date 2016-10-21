@@ -36,14 +36,13 @@
                 <div id='calendar'></div>
             </div>
             <!--     Events Legends       -->
-            <div class="col-md-12">
-                <br>
-                <button type="button" class="btn  single-event" data-toggle="button" aria-pressed="false" autocomplete="off">Eventos Merú</button>
-                <button type="button" class="btn  event-birthday" data-toggle="button" aria-pressed="false" autocomplete="off">Cumpleañeros Merú</button>
-                <button type="button" class="btn  event-wedding" data-toggle="button" aria-pressed="false" autocomplete="off">Plan Noche de Bodas</button>
-                <button type="button" class="btn  event-executive" data-toggle="button" aria-pressed="false" autocomplete="off">Ejecutivos MOD</button>
-                <button type="button" class="btn  ve-holidays" data-toggle="button" aria-pressed="false" autocomplete="off">Festivos Venezolanos</button>
-                <button type="button" class="btn  christian-holidays" data-toggle="button" aria-pressed="false" autocomplete="off">Festivos Cristianos</button>
+            <div class="col-md-12" style="padding-top: 5px;">
+                <button type="button" class="btn single-event" data-toggle="button" aria-pressed="false" autocomplete="off">Eventos Merú</button>
+                <button type="button" class="btn event-birthday" data-toggle="button" aria-pressed="false" autocomplete="off">Cumpleañeros Merú</button>
+                <button type="button" class="btn event-wedding" data-toggle="button" aria-pressed="false" autocomplete="off">Plan Noche de Bodas</button>
+                <button type="button" class="btn event-executive" data-toggle="button" aria-pressed="false" autocomplete="off">Ejecutivos MOD</button>
+                <button type="button" class="btn ve-holidays" data-toggle="button" aria-pressed="false" autocomplete="off">Festivos Venezolanos</button>
+                <button type="button" class="btn christian-holidays" data-toggle="button" aria-pressed="false" autocomplete="off">Festivos Cristianos</button>
 
             </div>
         </div>
