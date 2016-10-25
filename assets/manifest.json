@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "libs.js": {
+      "bower": ["jquery","tether","bootstrap","moment","fullcalendar","vegas"]
+    },
+    "main.js": {
+      "files": [
+        "scripts/config.js",
+        "scripts/events.js",
+        "scripts/fullcalendar-config.js"
+      ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "css/**/*.css",
+        "styles/*.css"
+      ],
+      "bower":["bootstrap",
+        "font-awesome",
+        "vegas",
+        "fullcalendar"
+      ],
+      "main": true
+    }
+  },
+  "paths": {
+    "source": "assets/",
+    "dist": "dist/"
+  }
+}

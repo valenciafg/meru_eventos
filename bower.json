@@ -20,5 +20,49 @@
     "fullcalendar": "^3.0.1",
     "bootstrap": "v4.0.0-alpha.4",
     "vegas": "^2.3.1"
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "./dist/jquery.js"
+      ]
+    },
+    "tether": {
+      "main": [
+        "./dist//js/tether.js"
+      ]
+    },
+    "bootstrap": {
+      "main": [
+        "./dist/css/bootstrap.css",
+        "./dist/js/bootstrap.js"
+      ]
+    },
+    "moment": {
+      "main": [
+        "./moment.js",
+        "./locale/es.js"
+      ]
+    },
+    "fullcalendar": {
+      "main": [
+        "./dist/fullcalendar.js",
+        "./dist/locale-all.js",
+        "./dist/gcal.js",
+        "./dist/fullcalendar.min.css"
+      ]
+    },
+    "vegas": {
+      "main": [
+        "./dist/vegas.js",
+        "./dist/vegas.css"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "./css/font-awesome.css",
+        "./fonts/*"
+      ]
+    }
   }
 }

@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel='stylesheet' href='bower_components/bootstrap/dist/css/bootstrap.min.css' />
-    <!-- Full Calendar CSS -->
-    <link rel='stylesheet' href='bower_components/fullcalendar/dist/fullcalendar.min.css' />
-    <!-- Vegas   -->
-    <link rel="stylesheet" href="bower_components/vegas/dist/vegas.min.css">
-    <link rel='stylesheet' href='assets/styles/style.css' />
+    <link rel='stylesheet' href='dist/styles/main.css' />
     <title>Eventos - HOTEL PLAZA MARU</title>
 </head>
+<script id="__bs_script__">
+    //<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.17.5'><\/script>".replace("HOST", location.hostname));
+    //]]>
+</script>
 <body>
     <header id="header">
         <nav class="navbar navbar-fixed-top">
@@ -98,20 +96,7 @@
             </div>
         </div>
     </div>
-
-
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/tether/dist/js/tether.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/moment/moment.js"></script>
-    <script src="bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
-    <script src="bower_components/vegas/dist/vegas.min.js"></script>
-    <script src="bower_components/fullcalendar/dist/locale-all.js"></script>
-    <script src="bower_components/fullcalendar/dist/gcal.js"></script>
-    <script language="javascript" type="text/javascript" src="assets/scripts/config.js"></script>
-    <script language="javascript" type="text/javascript" src="assets/scripts/events.js"></script>
-    <script language="javascript" type="text/javascript" src="assets/scripts/fullcalendar-config.js"></script>
-
+    <script src="dist/scripts/libs.js"></script>
+    <script src="dist/scripts/main.js"></script>
 </body>
 </html>
