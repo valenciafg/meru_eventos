@@ -16,16 +16,16 @@
     <header id="header">
         <nav class="navbar navbar-fixed-top">
             <a class="navbar-brand" href="#"><img src="dist/images/hotel_logof.png"></a>
-            <ul class="nav navbar-nav pull-xs-right" style="vertical-align: middle;">
-                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="#">Inicio</a></li>
-                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/habitaciones.php"> Habitaciones</a></li>
-                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/gastronomia.php">Gastronomia </a></li>
-                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/bodas.php">Bodas</a></li>
-                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/eventos.php">Eventos  </a></li>
-                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/contacto.php">Contactenos  </a></li>
-                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" id="abc" onclick="javascript:reservas(this);" style="cursor:pointer" name="https://www.methacortex.com/rs_plazameru/FRM_1.php?Key=SE9URUwgUExBWkEgTUVSVQ==">Reserve Ahora</a>
-                </li>
-            </ul>
+<!--            <ul class="nav navbar-nav pull-xs-right" style="vertical-align: middle;">-->
+<!--                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="#">Inicio</a></li>-->
+<!--                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/habitaciones.php"> Habitaciones</a></li>-->
+<!--                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/gastronomia.php">Gastronomia </a></li>-->
+<!--                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/bodas.php">Bodas</a></li>-->
+<!--                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/eventos.php">Eventos  </a></li>-->
+<!--                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/contacto.php">Contactenos  </a></li>-->
+<!--                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" id="abc" onclick="javascript:reservas(this);" style="cursor:pointer" name="https://www.methacortex.com/rs_plazameru/FRM_1.php?Key=SE9URUwgUExBWkEgTUVSVQ==">Reserve Ahora</a>-->
+<!--                </li>-->
+<!--            </ul>-->
         </nav>
     </header>
     <div class="container">
