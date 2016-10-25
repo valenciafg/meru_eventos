@@ -9,25 +9,29 @@
     <link rel='stylesheet' href='bower_components/bootstrap/dist/css/bootstrap.min.css' />
     <!-- Full Calendar CSS -->
     <link rel='stylesheet' href='bower_components/fullcalendar/dist/fullcalendar.min.css' />
+    <!-- Vegas   -->
+    <link rel="stylesheet" href="bower_components/vegas/dist/vegas.min.css">
     <link rel='stylesheet' href='assets/styles/style.css' />
     <title>Eventos - HOTEL PLAZA MARU</title>
 </head>
 <body>
-    <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-        <a class="navbar-brand" href="#"><img src="dist/images/hotel_logof.jpg"></a>
-        <ul class="nav navbar-nav pull-xs-right">
-            <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="#">Inicio</a></li>
-            <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/habitaciones.php"> Habitaciones</a></li>
-            <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/gastronomia.php">Gastronomia </a></li>
-            <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/bodas.php">Bodas</a></li>
-            <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/eventos.php">Eventos  </a></li>
-            <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/contacto.php">Contactenos  </a></li>
-            <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" id="abc" onclick="javascript:reservas(this);" style="cursor:pointer" name="https://www.methacortex.com/rs_plazameru/FRM_1.php?Key=SE9URUwgUExBWkEgTUVSVQ==">Reserve Ahora</a>
-            </li>
-        </ul>
-    </nav>
+    <header id="header">
+        <nav class="navbar navbar-fixed-top">
+            <a class="navbar-brand" href="#"><img src="dist/images/hotel_logof.png"></a>
+            <ul class="nav navbar-nav pull-xs-right" style="vertical-align: middle;">
+                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="#">Inicio</a></li>
+                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/habitaciones.php"> Habitaciones</a></li>
+                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/gastronomia.php">Gastronomia </a></li>
+                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/bodas.php">Bodas</a></li>
+                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/eventos.php">Eventos  </a></li>
+                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" href="conoce/contacto.php">Contactenos  </a></li>
+                <li class="nav-item" style="white-space: nowrap;"><a class="nav-link" id="abc" onclick="javascript:reservas(this);" style="cursor:pointer" name="https://www.methacortex.com/rs_plazameru/FRM_1.php?Key=SE9URUwgUExBWkEgTUVSVQ==">Reserve Ahora</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
-        <div class="row">
+        <div class="row calendar-container">
             <div class="col-md-12">
                 <h1 class="text-center"><i class="fa fa-calendar" aria-hidden="true"></i> Calendario de Eventos</h1>
             </div>
@@ -36,7 +40,7 @@
                 <div id='calendar'></div>
             </div>
             <!--     Events Legends       -->
-            <div class="col-md-12" style="padding-top: 5px;">
+            <div class="col-md-12 event-button-group">
                 <button type="button" class="btn single-event" data-toggle="button" aria-pressed="false" autocomplete="off">Eventos Merú</button>
                 <button type="button" class="btn event-birthday" data-toggle="button" aria-pressed="false" autocomplete="off">Cumpleañeros Merú</button>
                 <button type="button" class="btn event-wedding" data-toggle="button" aria-pressed="false" autocomplete="off">Plan Noche de Bodas</button>
@@ -102,9 +106,12 @@
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/moment/moment.js"></script>
     <script src="bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+    <script src="bower_components/vegas/dist/vegas.min.js"></script>
     <script src="bower_components/fullcalendar/dist/locale-all.js"></script>
     <script src="bower_components/fullcalendar/dist/gcal.js"></script>
+    <script language="javascript" type="text/javascript" src="assets/scripts/config.js"></script>
     <script language="javascript" type="text/javascript" src="assets/scripts/events.js"></script>
     <script language="javascript" type="text/javascript" src="assets/scripts/fullcalendar-config.js"></script>
+
 </body>
 </html>
