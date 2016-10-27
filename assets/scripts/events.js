@@ -101,4 +101,14 @@ $(document).ready(function(){
             show_executive_event = true;
         }
     });
+    var show_bank_event = true;
+    $(".btn.event-bank").click(function(){
+        if(show_bank_event) {
+            $(".fc-event.event-bank").hide();
+            show_bank_event = false;
+        }else {
+            $(".fc-event.event-bank").show();
+            show_bank_event = true;
+        }
+    });
 });

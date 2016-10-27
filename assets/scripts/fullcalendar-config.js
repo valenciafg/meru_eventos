@@ -3,30 +3,41 @@ $(document).ready(function() {
         locale: 'es',
         contentHeight: 700,
         aspectRatio: 2,
-        googleCalendarApiKey: 'AIzaSyDoIHaVJIx04wq-XYIkxn4U4dY55Cq3gHw',
+        googleCalendarApiKey: 'AIzaSyDrzlzwx-cXpWGkvdTA9A4Y_RCAlr7yMe0',
         eventSources: [
             {
-                googleCalendarId: 'valencia6x@gmail.com',
+                //Actividades Plaza Merú
+                googleCalendarId: 'hotelplazameru.com_7vjklt6bgoahjqcdjj46dkr97k@group.calendar.google.com',
                 className: 'single-event'
             },
             {
+                //Festivos Venezolanos
                 googleCalendarId: 'es.ve#holiday@group.v.calendar.google.com',
                 className: 've-holidays'
             },
             {
+                //Festivos Cristianos
                 googleCalendarId: 'es.christian#holiday@group.v.calendar.google.com',
                 className: 'christian-holidays'
             },
             {
-                googleCalendarId: '59m851vonq18cqvqctubi7l0p4@group.calendar.google.com',
+                //Lunes Bancarios
+                googleCalendarId: 'hotelplazameru.com_73u3a4jbirr6eh6b4nvlve7sro@group.calendar.google.com',
+                className: 'christian-holidays'
+            },
+            {
+                //Cumpleaños Plaza Marú
+                googleCalendarId: 'hotelplazameru.com_fp4rlsjstr7casv20044pabd6k@group.calendar.google.com',
                 className: 'event-birthday'
             },
             {
-                googleCalendarId: '7tcitlj1iq6rhiich0il49n95k@group.calendar.google.com',
+                //Bodas
+                googleCalendarId: 'hotelplazameru.com_cuqdhkssdm7e8u02ccnmun6vf0@group.calendar.google.com',
                 className: 'event-wedding'
             },
             {
-                googleCalendarId: 'lhhgcjsfvtfd6c9tnui5i66in0@group.calendar.google.com',
+                //Ejecutivos MOD
+                googleCalendarId: 'hotelplazameru.com_vpv203etpdor4n9mu8po5o6lto@group.calendar.google.com',
                 className: 'event-executive'
             }
         ],

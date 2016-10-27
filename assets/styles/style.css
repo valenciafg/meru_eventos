@@ -39,6 +39,12 @@ body {
     border-color: #FFFFFF;
     color: #fff;
 }
+/* Lunes Bancarios*/
+.event-bank{
+    background-color: #ff7c4a;
+    border-color: #FFFFFF;
+    color: #fff;
+}
 .text-center {
     text-align:center;
 }
