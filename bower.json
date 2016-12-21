@@ -29,7 +29,7 @@
     },
     "tether": {
       "main": [
-        "./dist//js/tether.js"
+        "./dist/js/tether.js"
       ]
     },
     "bootstrap": {
