@@ -86,7 +86,11 @@
             </div>
         </div>
     </div>
+    <!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
     <script src="dist/scripts/libs.js"></script>
     <script src="dist/scripts/main.js"></script>
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
 </body>
 </html>
