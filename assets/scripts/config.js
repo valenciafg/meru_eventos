@@ -6,6 +6,6 @@ $(document).ready(function(){
             { src: "dist/images/restaurant.jpg" },
             { src: "dist/images/town.jpg" }
         ],
-        overlay: 'bower_components/vegas/dist/overlays/06.png'
+        overlay: 'dist/images/06.png'
     });
 });
