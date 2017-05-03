@@ -5,7 +5,6 @@
     },
     "main.js": {
       "files": [
-        "scripts/config.js",
         "scripts/events.js",
         "scripts/fullcalendar-config.js"
       ],

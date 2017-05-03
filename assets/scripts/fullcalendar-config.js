@@ -41,11 +41,18 @@ $(document).ready(function() {
                 className: 'event-executive'
             }
         ],
+        timeFormat: 'h(:mm)t -',
         eventClick: function(calEvent, jsEvent, view) {
             showEventDetailsModal(calEvent);
             if (calEvent.url) {
                 return false;
             }
+        },
+        eventMouseover: function(calEvent, jsEvent, view){           
+            var target = $(jsEvent.currentTarget);
+            target.tooltip({
+                title: calEvent.title
+            });
         }
     });
 });
