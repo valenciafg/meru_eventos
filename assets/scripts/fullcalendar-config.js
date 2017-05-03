@@ -48,4 +48,7 @@ $(document).ready(function() {
             }
         }
     });
+    console.log('asdasdsada');
+    var times = $(".fc-event-container");
+    console.log('la cantidad de times es',times.length);
 });

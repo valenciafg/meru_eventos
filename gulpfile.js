@@ -18,7 +18,6 @@ var runSequence  = require('run-sequence');
 var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
-var winInstaller = require('electron-windows-installer');
 
 var manifest = require('asset-builder')('./assets/manifest.json');
 var path = manifest.paths;

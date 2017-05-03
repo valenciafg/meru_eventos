@@ -1,7 +1,6 @@
 $(document).ready(function(){
     function showEventDetailsModal(event){
         var gMapSearchBasePathES = "https://maps.google.com/maps?hl=es&q=";
-        // console.log(event);
         //Title
         if(typeof event.title != 'undefined'){
             $("#myModalLabel").html(event.title);
@@ -51,6 +50,7 @@ $(document).ready(function(){
             show_single_event = true;
         }
     });
+    $(".fc-event.single-event").tooltip();
     var show_ve_holidays_event = true;
     $(".btn.ve-holidays").click(function(){
         if(show_ve_holidays_event) {
