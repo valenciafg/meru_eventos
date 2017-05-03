@@ -1,7 +1,7 @@
 body {
     /* Show it's not fixed to the top */
-    min-height: 75rem;
-    padding-top: 6rem;
+    /*min-height: 75rem;*/
+    padding-top: 3rem;
     background: #FFF url("../images/horizontal_logo.png") center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;

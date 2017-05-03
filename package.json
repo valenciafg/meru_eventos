@@ -1,13 +1,13 @@
 {
   "name": "meru_eventos",
-  "productName": "Calendario_Eventos_Meru",
-  "version": "1.0.0",
-  "description": "calendario de eventos",
+  "productName": "calendario-meru",
+  "version": "1.1.0",
+  "description": "Calendario de Eventos Merú",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds",
-    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --icon=assets/images/favicon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Calendario Plaza Merú\"",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --icon=dist/images/logo.ico --prune=true --out=release-builds --win32metadata.CompanyName=\"Hotel Plaza Merú\" --win32metadata.FileDescription=\"Calendarios de Eventos Merú\" --win32metadata.ProductName=\"Calendario Plaza Merú\"",
     "package-linux": "electron-packager . --overwrite --platform=linux --arch=x64 --icon=assets/images/hotel_logof.png --prune=true --out=release-builds",
     "win-installer": "node windowsBuildInstaller.js"
   },
@@ -15,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/valenciafg/meru_eventos.git"
   },
-  "author": "Victor Valencia",
+  "author": {
+    "name": "Victor Valencia",
+    "email": "valencia6x@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/valenciafg/meru_eventos/issues"

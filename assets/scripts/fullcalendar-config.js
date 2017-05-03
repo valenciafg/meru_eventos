@@ -41,14 +41,18 @@ $(document).ready(function() {
                 className: 'event-executive'
             }
         ],
+        timeFormat: 'h(:mm)t -',
         eventClick: function(calEvent, jsEvent, view) {
             showEventDetailsModal(calEvent);
             if (calEvent.url) {
                 return false;
             }
+        },
+        eventMouseover: function(calEvent, jsEvent, view){           
+             var target = $(jsEvent.currentTarget);
+             target.tooltip({
+                 title: calEvent.title
+             });
         }
     });
-    console.log('asdasdsada');
-    var times = $(".fc-event-container");
-    console.log('la cantidad de times es',times.length);
 });

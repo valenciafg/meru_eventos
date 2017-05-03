@@ -15,7 +15,8 @@ const windowConfig = {
     height: 1024,
     title: 'Calendario Merú',
     autoHideMenuBar: true,
-    enableLargerThanScreen: true
+    enableLargerThanScreen: true,
+    icon: 'dist/images/logo.png'
 }
 function createWindow () {
   // Create the browser window.
@@ -29,7 +30,7 @@ function createWindow () {
   }))
 
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  // mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
