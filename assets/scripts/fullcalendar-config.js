@@ -48,11 +48,12 @@ $(document).ready(function() {
                 return false;
             }
         },
-        eventMouseover: function(calEvent, jsEvent, view){           
-            var target = $(jsEvent.currentTarget);
-            target.tooltip({
-                title: calEvent.title
-            });
+        eventRender: function(event, element){
+             element.attr("data-toggle",'tooltip');
+             element.attr("title",event.title);
+        },
+        eventAfterAllRender: function(view){
+            $('[data-toggle="tooltip"]').tooltip();
         }
-    });
+    });     
 });
